@@ -1,15 +1,30 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode files
 __pycache__/
-*.py[cod]
-*.so
-*.ipynb_checkpoints
+*.pyc
 
-# ROS build files
-build/
-devel/
+# Virtual environment
+venv/
+env/
+
+# ROS2 workspace files
+install/
 log/
+build/
 
-# Data and other artifacts
-*.bag
-*.csv
+# IDE files (Example for VSCode and PyCharm)
+.vscode/
+.idea/
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker files
 *.log
+*.out
+
+# Other temporary files
+*.swp
