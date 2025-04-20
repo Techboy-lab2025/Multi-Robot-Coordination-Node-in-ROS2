@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# ROS build files
+build/
+devel/
+log/
+
+# Data and other artifacts
+*.bag
+*.csv
+*.log
